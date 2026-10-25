@@ -1,0 +1,33 @@
+# Local settings and secrets
+.env
+.env.*
+.secrets/
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Raw observations may contain private identifiers; publish reviewed summaries
+logs/
+dumps/
+private/
+local/
+*.log
+*.pcap
+*.pcapng
+*.dump
+*.img
+*.img.*
+*.iso
+*.bak
+
+# Local editor and operating-system files
+.DS_Store
+._*
+.idea/
+.vscode/
+*~
